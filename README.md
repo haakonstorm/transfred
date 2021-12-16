@@ -9,3 +9,5 @@ Dependends on GNU awk and translate-shell.
 Install those on macOS with `brew install gawk translate-shell`
 
 Adjust homebrew prefix in the workflow variables from `/opt/homebrew` to `/usr/local` if not on Apple silicon.
+
+Configure target languages in the same place, in the format `no+en+de+es` as per output of `trans -T` to list language codes.
